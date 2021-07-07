@@ -51,7 +51,7 @@ public class CalorieCalculator extends AppCompatActivity {
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
 
                 // Calculate Button
-                Button calculate = findViewById(R.id.button);
+                Button calculate = findViewById(R.id.btCalo);
                 calculate.setOnClickListener(v -> {
                     String w = edit_weight.getText().toString();
                     String h = edit_height.getText().toString();

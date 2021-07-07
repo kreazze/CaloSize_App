@@ -8,39 +8,64 @@
 
     <TextView
         android:id="@+id/tvWelcome"
-        android:layout_width="139dp"
-        android:layout_height="90dp"
-        android:text="Welcome!"
+        android:layout_width="313dp"
+        android:layout_height="50dp"
+        android:text="CALORIE CALCULATOR"
+        android:textSize="30sp"
+        android:typeface="sans"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.29" />
+
+    <Button
+        android:id="@+id/btCalo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvWelcome"
+        app:layout_constraintVertical_bias="0.066" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BMI CALCULATOR"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.544"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.477" />
+        app:layout_constraintTop_toBottomOf="@+id/btCalo"
+        app:layout_constraintVertical_bias="0.185" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btBmi"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="173dp"
-        tools:layout_editor_absoluteY="407dp" />
+        android:text="Enter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.093" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/tvGreeting"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="ever is here"
-        android:textSize="24sp"
-        tools:layout_editor_absoluteX="148dp"
-        tools:layout_editor_absoluteY="184dp" />
+        android:text="Hello!"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.146"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.104" />
 
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="165dp"
-        tools:layout_editor_absoluteY="241dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

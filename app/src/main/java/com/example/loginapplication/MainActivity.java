@@ -105,7 +105,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-                        Intent intent = new Intent(MainActivity.this, CalorieCalculator.class);
+                        Intent intent = new Intent(MainActivity.this, HomePageActivity.class);
                         startActivity(intent);
 
 
